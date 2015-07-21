@@ -1,6 +1,6 @@
 # eegfckr
 brain eeg exciter
-![](http://i.imgur.com/f9jtY5X.jpg)
+![](http://i.imgur.com/O06KAnZl.png)
 
 * C = 47 uF (microfarad)
 * R1 = 1K
