@@ -5,7 +5,7 @@ Schema
 ![](http://i.imgur.com/O06KAnZl.png)
 
 Board layout (example)  
-![](http://i.imgur.com/0n40fsg.png)
+![](http://i.imgur.com/wOuzrPK.png)
 
 Attiny85 pinout  
 ![](http://highlowtech.org/wp-content/uploads/2011/10/ATtiny45-85.png)
