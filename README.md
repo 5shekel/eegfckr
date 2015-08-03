@@ -2,7 +2,7 @@
 brain eeg exciter, a simlpe device to output blinking LEDs in freq between 4-32Hz  
 
 Schema  
-![](http://i.imgur.com/O06KAnZl.png)
+![](http://i.imgur.com/kzVDl0n.png)
 
 Board layout (example)  
 ![](http://i.imgur.com/wOuzrPK.png)
