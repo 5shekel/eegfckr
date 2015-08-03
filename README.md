@@ -1,5 +1,6 @@
 # eegfckr
-brain eeg exciter
+brain eeg exciter, a simlpe device to output blinking LEDs in freq between 4-32Hz  
+
 Schema  
 ![](http://i.imgur.com/O06KAnZl.png)
 
@@ -9,7 +10,7 @@ Board layout (example)
 Attiny85 pinout  
 ![](http://highlowtech.org/wp-content/uploads/2011/10/ATtiny45-85.png)
 
-more at [TAMI](http://telavivmakers.org/index.php?title=Brain TAMI)
+more at [TAMI](http://telavivmakers.org/index.php?title=Brain)
 
 # upload
 using arduino uno as isp  
