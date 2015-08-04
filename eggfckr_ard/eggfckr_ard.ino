@@ -16,10 +16,8 @@ void setup() {
 }
 void loop() {
   freq = analogRead(pot);  //between 4-32Hz blinks, 4 is 250ms, 32 is 31ms
-  freq = 1- exp(-freq / logy);
-  freq = map(freq, 0, 1, 31, 250);
-  freq = constrain(abs(freq), 31,250);
-
+  freq = map(freq, 100, 1024, 31, 250);
+  freq = constrain(freq, 31,250);
   
   digitalWrite(led1, LOW);
   digitalWrite(led2, LOW);   
