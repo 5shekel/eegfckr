@@ -6,7 +6,8 @@ is adapted from Dr. Leah Buechley at
 http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
  */
 
-#define SPEAKER   0    // Speaker on GPIO #0
+#define SPEAKER_left   0    // Speaker on GPIO #0
+#define SPEAKER_right  1    // Speaker on GPIO #1
 #define SCALE     2.0  // You can change this to change the tone scale
 
 #define led1 2
@@ -17,7 +18,8 @@ http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
 int logy = 5;
 
 void setup() {
-  pinMode(SPEAKER,OUTPUT);
+  pinMode(SPEAKER_left,OUTPUT);
+  pinMode(SPEAKER_right,OUTPUT);
   
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
@@ -33,7 +35,8 @@ void loop() {
   int freqAudio=220+(int)(input*SCALE); // change the voltage read to a frequency
                              // you can change the values to scale
                              // your frequency range  
-  beep(SPEAKER,freqAudio,400);    // output the tone to digital pin 0
+  beep(SPEAKER_left,freqAudio,400);    // output the tone to digital pin 0
+  //beep(SPEAKER_right,freqAudio,400);    // output the tone to digital pin 1
                              // you can change 400 to different times}
 
   digitalWrite(led1, LOW);
