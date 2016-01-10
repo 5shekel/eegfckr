@@ -3,7 +3,7 @@ TLDR>>> brain eeg exciter, a simlpe device to output blinking LEDs in freq betwe
 
 After centuries of using electricity to stimulate and research the brain, optogenetics marks a phase, in which we use light to activate neurons and their pathways. To understand this transformation from electricity to light as a medium for exploring our mind, we will prototype a creative eye-ware with LEDs, which can alter EEG signals in the brain. We will solder a simple circuit that acts as a mind machine device. The final prototype will have a form of a creative eyewear or "eye-ware" mocking some recent history of Google glass mania and other futuristic attempts to hack eyeglasses.
 
-!()[http://i.imgur.com/2eitLkN.jpg]  
+![](http://i.imgur.com/2eitLkN.jpg)   
 [more pics at imgur](http://imgur.com/a/cNCWE)
 
 #board Layout
