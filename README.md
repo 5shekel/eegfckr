@@ -1,5 +1,7 @@
 # eegfckr
-brain eeg exciter, a simlpe device to output blinking LEDs in freq between 4-32Hz  
+TLDR>>> brain eeg exciter, a simlpe device to output blinking LEDs in freq between 4-32Hz  
+
+After centuries of using electricity to stimulate and research the brain, optogenetics marks a phase, in which we use light to activate neurons and their pathways. To understand this transformation from electricity to light as a medium for exploring our mind, we will prototype a creative eye-ware with LEDs, which can alter EEG signals in the brain. We will solder a simple circuit that acts as a mind machine device. The final prototype will have a form of a creative eyewear or "eye-ware" mocking some recent history of Google glass mania and other futuristic attempts to hack eyeglasses.
 
 Schema  
 ![](https://i.imgur.com/GS73reS.png)
@@ -10,8 +12,6 @@ Board layout (example)
 Attiny85 pinout  
 ![](http://highlowtech.org/wp-content/uploads/2011/10/ATtiny45-85.png)
 
-more at [TAMI](http://telavivmakers.org/index.php?title=Brain)
-
 # DIY MIND MACHINES & CREATIVE "EYE-WARE"
 
 "... and you realized that reality is neurology, and is not absolute."
@@ -21,27 +21,15 @@ Subtle change from electricity to light marks a major breakthrough in brain rese
 "When I first got my hearing aids, which were primarily tuned to augment those higher frequencies which are usually the first to disappear with age, it is true that the world instantly became louder and more harsh; it was difficult for someone whose aural landscape had so gradually become more and more muted and dulled to believe that this was hearing as experienced by most people, that this harshness was just the restoration of higher sound frequencies that had been lost. But the most disorienting aspect of this new soundscape was that sounds now carried too much emotion, too much meaning, so that a single sneeze was an expression of rage, the closing of a bedroom door was a pointed separation that would need healing, the smacking of a pillow to reshape it in the middle of the night was an explosive assault that caused my heart to pound with reflexive anger. A recalibration of my reaction to the intensity of sounds was urgently demanded, and though was constantly recalibrating, those unexpected shots of adrenaline still persisted and confused me. I wanted to jerk out of bed and slam the bedroom door and go for a petulant walk in the wet, dark streets, muttering to myself about spousal insult and betrayal. But I recalibrated.
 Cronenberg, David (2014-09-30). Consumed: A Novel (p. 217). Scribner. Kindle Edition.
 
-More links:
-Previous workshops:  
-http://telavivmakers.org/index.php?title=Brain  
-https://www.facebook.com/events/823769724411378/  
-
-[The history of the electrical stimulation of the brain](http://www.cerebromente.org.br/n18/history/stimulation_i.htm
-)  
-[Hans Berger: From Psychic Energy to the EEG](http://methodsinbraincomputerinterfaces.wikispaces.com/file/view/BergerBiography.pdf
-)  
-[Hans Berger portrait](http://neuroportraits.eu/portrait/hans-berger
-)
-[History of glasses](http://www.museumofvision.org/exhibitions/?key=44&subkey=4&relkey=35
-)  
-[1750 Martins Margins type spectacles](http://www.museumofvision.org/collection/artifacts/?accession=1999.024.00059
-) 
-[Guide to Assist in the Identification of Antique Spectacles](http://www.antiquespectacles.com/guide/guide_to_assist.htm
-)  
-Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/4747873754/
-) [#2](https://www.flickr.com/photos/x-ray_delta_one/4265173624/in/album-72157622288782911/)  
-[E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story
-) 
+##links
+[The history of the electrical stimulation of the brain](http://www.cerebromente.org.br/n18/history/stimulation_i.htm)  
+[Hans Berger: From Psychic Energy to the EEG](http://methodsinbraincomputerinterfaces.wikispaces.com/file/view/BergerBiography.pdf)  
+[Hans Berger portrait](http://neuroportraits.eu/portrait/hans-berger)
+[History of glasses](http://www.museumofvision.org/exhibitions/?key=44&subkey=4&relkey=35)  
+[1750 Martins Margins type spectacles](http://www.museumofvision.org/collection/artifacts/?accession=1999.024.00059) 
+[Guide to Assist in the Identification of Antique Spectacles](http://www.antiquespectacles.com/guide/guide_to_assist.htm)  
+Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/4747873754/) [#2](https://www.flickr.com/photos/x-ray_delta_one/4265173624/in/album-72157622288782911/)  
+[E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story) 
 
 # Components
 [google sheet](https://docs.google.com/spreadsheets/d/1JA0BjbYkpqYi8BU7iDlsvR_3m2nQNDry2EhpkC5hDX0/edit?ts=5613f817#gid=0  
@@ -60,3 +48,7 @@ using arduino uno as isp
 -- Processor>ATtiny85  
 -- Clock>8Mhz (internal)  
 
+
+# Previous workshops:  
+[TAMI hackerspace wiki page](http://telavivmakers.org/index.php?title=Brain )
+[event pics](https://www.facebook.com/events/823769724411378/)  
