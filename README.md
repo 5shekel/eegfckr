@@ -28,7 +28,6 @@ Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/474787
 [E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story) 
 
 https://github.com/LaughterOnWater/Arduino-Brain-Machine  > http://low.li/story/2011/01/arduino-brain-machine
-https://github.com/lumi3005/My-Arduino/tree/master/brainmachine  
 http://forum.arduino.cc/index.php?topic=41077.0  
 
 
