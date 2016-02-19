@@ -62,7 +62,9 @@ Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/474787
 [E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story) 
 
 
-# DIY MIND MACHINES & CREATIVE "EYE-WARE"
+#text
+
+DIY MIND MACHINES & CREATIVE "EYE-WARE"
 
 "... and you realized that reality is neurology, and is not absolute."
 Cronenberg, David. Consumed: A Novel (p. 225)
