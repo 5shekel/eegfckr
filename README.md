@@ -19,16 +19,18 @@ Attiny85 pinout
 
 ##software
 in process.   
-also see [low.li blog post](http://low.li/story/2011/01/arduino-brain-machine) > ([github](https://github.com/LaughterOnWater/Arduino-Brain-Machine)
+also see [low.li blog post](http://low.li/story/2011/01/arduino-brain-machine) > [github](https://github.com/LaughterOnWater/Arduino-Brain-Machine)
 
 ### tone talk
 links on tone lib modfing for the attiny family and some light low level code talk.
 [A Tone Generator for Trinket](http://w8bh.net/avr/TrinketTone.pdf)  
-[Waveform Generation using an ATtiny85](http://www.technoblogy.com/show?QVN), [and tinyTune func](http://www.technoblogy.com/show?KVO)  
+[Waveform Generation using an ATtiny85](http://www.technoblogy.com/show?QVN) | [archive.is](https://archive.is/Lsk9m)  
+[tinyTune func](http://www.technoblogy.com/show?KVO)   
 [programming the LilyPad Arduino: sound](http://web.media.mit.edu/~leah/LilyPad/07_sound.html)  
 [link-an-led-with-an-avr](http://www.evilmadscientist.com/2012/blink-an-led-with-an-avr/)  
 [http://www.ladyada.net/learn/proj1/blinky.html](http://www.ladyada.net/learn/proj1/blinky.html)  
-[binaureal beats using the arduino](http://forum.arduino.cc/index.php?topic=41077.0)
+[binaureal beats using the arduino](http://forum.arduino.cc/index.php?topic=41077.0)  
+[brainwave-disruptor](http://blog.ponoko.com/2011/08/05/rich-decibels-brainwave-disruptor/) >> [polytones without delay](https://gist.github.com/5shekel/ce690d048fac5872f0ad)
 
 ### upload
 using arduino uno as isp  
