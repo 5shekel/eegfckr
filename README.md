@@ -24,7 +24,7 @@ also see [low.li blog post](http://low.li/story/2011/01/arduino-brain-machine) >
 ### tone talk
 links on tone lib modfing for the attiny family and some light low level code talk.
 [A Tone Generator for Trinket](http://w8bh.net/avr/TrinketTone.pdf)  
-[Generation using an ATtiny85](http://www.technoblogy.com/show?QVN Waveform)  
+[Waveform Generation using an ATtiny85](http://www.technoblogy.com/show?QVN), [and tinyTune func](http://www.technoblogy.com/show?KVO)  
 [programming the LilyPad Arduino: sound](http://web.media.mit.edu/~leah/LilyPad/07_sound.html)  
 [link-an-led-with-an-avr](http://www.evilmadscientist.com/2012/blink-an-led-with-an-avr/)  
 [http://www.ladyada.net/learn/proj1/blinky.html](http://www.ladyada.net/learn/proj1/blinky.html)  
