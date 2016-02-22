@@ -63,7 +63,9 @@ using arduino uno as isp
 Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/4747873754/) [#2](https://www.flickr.com/photos/x-ray_delta_one/4265173624/in/album-72157622288782911/)  
 [E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story)  
 [chris-marker La Jetée](http://www.theguardian.com/film/2014/apr/15/thrilling-prophetic-chris-marker-experimental-films)  
-![stills from La Jetée](http://i.imgur.com/3AqJXFk.jpg)
+![stills from La Jetée](http://i.imgur.com/3AqJXFk.jpg)  
+
+[headphones that get you high](http://www.sciencealert.com/headphones-that-get-you-high-are-tipped-to-go-on-sale-next-month)  
 
 #text
 
