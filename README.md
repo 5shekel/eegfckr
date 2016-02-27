@@ -17,26 +17,22 @@ Attiny85 pinout
 ![](http://highlowtech.org/wp-content/uploads/2011/10/ATtiny45-85.png)
 
 
-##links
-[The history of the electrical stimulation of the brain](http://www.cerebromente.org.br/n18/history/stimulation_i.htm)  
-[Hans Berger: From Psychic Energy to the EEG](http://methodsinbraincomputerinterfaces.wikispaces.com/file/view/BergerBiography.pdf)  
-[Hans Berger portrait](http://neuroportraits.eu/portrait/hans-berger)
-[History of glasses](http://www.museumofvision.org/exhibitions/?key=44&subkey=4&relkey=35)  
-[1750 Martins Margins type spectacles](http://www.museumofvision.org/collection/artifacts/?accession=1999.024.00059) 
-[Guide to Assist in the Identification of Antique Spectacles](http://www.antiquespectacles.com/guide/guide_to_assist.htm)  
-Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/4747873754/) [#2](https://www.flickr.com/photos/x-ray_delta_one/4265173624/in/album-72157622288782911/)  
-[E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story) 
+##software
+in process.   
+also see [low.li blog post](http://low.li/story/2011/01/arduino-brain-machine) > [github](https://github.com/LaughterOnWater/Arduino-Brain-Machine)
 
-https://github.com/LaughterOnWater/Arduino-Brain-Machine  > http://low.li/story/2011/01/arduino-brain-machine
-http://forum.arduino.cc/index.php?topic=41077.0  
+### tone talk
+links on tone lib modfing for the attiny family and some light low level code talk.
+[A Tone Generator for Trinket](http://w8bh.net/avr/TrinketTone.pdf)  
+[Waveform Generation using an ATtiny85](http://www.technoblogy.com/show?QVN) | [archive.is](https://archive.is/Lsk9m)  
+[tinyTune func](http://www.technoblogy.com/show?KVO)   
+[programming the LilyPad Arduino: sound](http://web.media.mit.edu/~leah/LilyPad/07_sound.html)  
+[link-an-led-with-an-avr](http://www.evilmadscientist.com/2012/blink-an-led-with-an-avr/)  
+[http://www.ladyada.net/learn/proj1/blinky.html](http://www.ladyada.net/learn/proj1/blinky.html)  
+[binaureal beats using the arduino](http://forum.arduino.cc/index.php?topic=41077.0)  
+[brainwave-disruptor](http://blog.ponoko.com/2011/08/05/rich-decibels-brainwave-disruptor/) >> [polytones without delay](https://gist.github.com/5shekel/ce690d048fac5872f0ad)
 
-
-
-# Components
-[google sheet](https://docs.google.com/spreadsheets/d/1JA0BjbYkpqYi8BU7iDlsvR_3m2nQNDry2EhpkC5hDX0/edit?ts=5613f817#gid=0  
-)  
-
-# upload
+### upload
 using arduino uno as isp  
 - add ATtiny board to arduino 1.6.5> 
 (see http://highlowtech.org/?p=1695)  
@@ -49,14 +45,31 @@ using arduino uno as isp
 -- Processor>ATtiny85  
 -- Clock>8Mhz (internal)  
 
+### Components
+[BOM google sheet](https://docs.google.com/spreadsheets/d/1JA0BjbYkpqYi8BU7iDlsvR_3m2nQNDry2EhpkC5hDX0/edit?ts=5613f817#gid=0) 
 
-# Previous workshops:  
+### workshops:  
 [TAMI hackerspace wiki page](http://telavivmakers.org/index.php?title=Brain )  
-[previous FB event](https://www.facebook.com/events/823769724411378/)  
-[workshop #1 pics](http://imgur.com/a/cNCWE)
+[zimmer workshop #1 pics](http://imgur.com/a/cNCWE) [FB event](https://www.facebook.com/events/823769724411378/)  
 
 
-# DIY MIND MACHINES & CREATIVE "EYE-WARE"
+##links
+[The history of the electrical stimulation of the brain](http://www.cerebromente.org.br/n18/history/stimulation_i.htm)  
+[Hans Berger: From Psychic Energy to the EEG](http://methodsinbraincomputerinterfaces.wikispaces.com/file/view/BergerBiography.pdf)  
+[Hans Berger portrait](http://neuroportraits.eu/portrait/hans-berger)
+[History of glasses](http://www.museumofvision.org/exhibitions/?key=44&subkey=4&relkey=35)  
+[1750 Martins Margins type spectacles](http://www.museumofvision.org/collection/artifacts/?accession=1999.024.00059) 
+[Guide to Assist in the Identification of Antique Spectacles](http://www.antiquespectacles.com/guide/guide_to_assist.htm)  
+Weird eye-ware designs [#1](https://www.flickr.com/photos/x-ray_delta_one/4747873754/) [#2](https://www.flickr.com/photos/x-ray_delta_one/4265173624/in/album-72157622288782911/)  
+[E-waste recycled glasses](https://www.facebook.com/ajplusenglish/videos/586570601484451/?pnref=story)  
+[chris-marker La Jetée](http://www.theguardian.com/film/2014/apr/15/thrilling-prophetic-chris-marker-experimental-films)  
+![stills from La Jetée](http://i.imgur.com/3AqJXFk.jpg)  
+
+[headphones that get you high](http://www.sciencealert.com/headphones-that-get-you-high-are-tipped-to-go-on-sale-next-month)  
+
+#text
+
+DIY MIND MACHINES & CREATIVE "EYE-WARE"
 
 "... and you realized that reality is neurology, and is not absolute."
 Cronenberg, David. Consumed: A Novel (p. 225)
