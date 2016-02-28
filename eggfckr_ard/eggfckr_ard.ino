@@ -1,4 +1,5 @@
 /*
+ * https://github.com/5shekel/eegfckr
   Note1: some code from the adafriut gemma simple thermain example.
   Note2: The Arduino tone library does not work for the ATTiny85 on the
   Trinket and Gemma.  The beep function below is similar.  The beep code
