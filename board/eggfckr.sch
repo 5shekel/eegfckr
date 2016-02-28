@@ -3992,7 +3992,6 @@ http://dangerousprototypes.com</description>
 <part name="R1" library="adafruit" deviceset="R-US_" device="0204/7"/>
 <part name="LED2" library="adafruit" deviceset="LED" device="3MM"/>
 <part name="GND2" library="ATtami" deviceset="GND" device=""/>
-<part name="P+2" library="ATTiny Fuse Reset with 12V Charge Pump" deviceset="VCC" device=""/>
 <part name="GND1" library="ATtami" deviceset="GND" device=""/>
 <part name="P+3" library="ATTiny Fuse Reset with 12V Charge Pump" deviceset="VCC" device=""/>
 <part name="P+4" library="ATTiny Fuse Reset with 12V Charge Pump" deviceset="VCC" device=""/>
@@ -4007,7 +4006,7 @@ http://dangerousprototypes.com</description>
 <text x="0" y="0" size="1.27" layer="91">eegfckr</text>
 </plain>
 <instances>
-<instance part="P+1" gate="VCC" x="78.74" y="27.94"/>
+<instance part="P+1" gate="VCC" x="78.74" y="30.48"/>
 <instance part="LED1" gate="G$1" x="2.54" y="22.86" rot="R90"/>
 <instance part="R2" gate="G$1" x="63.5" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="60.452" y="22.1234" size="1.27" layer="95" rot="R180"/>
@@ -4023,7 +4022,6 @@ http://dangerousprototypes.com</description>
 </instance>
 <instance part="LED2" gate="G$1" x="76.2" y="20.32" rot="R270"/>
 <instance part="GND2" gate="1" x="0" y="5.08"/>
-<instance part="P+2" gate="VCC" x="78.74" y="7.62" rot="R180"/>
 <instance part="GND1" gate="1" x="20.32" y="5.08"/>
 <instance part="P+3" gate="VCC" x="0" y="30.48"/>
 <instance part="P+4" gate="VCC" x="48.26" y="38.1" rot="R180"/>
@@ -4046,12 +4044,6 @@ http://dangerousprototypes.com</description>
 <pinref part="U1" gate="A" pin="(PB2)7"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -4079,27 +4071,26 @@ http://dangerousprototypes.com</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-<pinref part="U1" gate="A" pin="(VCC)8"/>
-<wire x1="55.88" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="78.74" y1="20.32" x2="78.74" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="0" y1="22.86" x2="0" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="0" y1="22.86" x2="0" y2="17.78" width="0.1524" layer="91"/>
-<junction x="0" y="22.86"/>
-<pinref part="R3" gate="R" pin="3"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="78.74" y1="20.32" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="(VCC)8"/>
+<wire x1="78.74" y1="25.4" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<junction x="78.74" y="25.4"/>
 </segment>
 <segment>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <pinref part="VCC" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="45.72" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="0" y1="27.94" x2="0" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R3" gate="R" pin="3"/>
+<wire x1="0" y1="22.86" x2="0" y2="17.78" width="0.1524" layer="91"/>
+<junction x="0" y="22.86"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4115,6 +4106,12 @@ http://dangerousprototypes.com</description>
 <wire x1="20.32" y1="12.7" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R3" gate="R" pin="2"/>
 <wire x1="5.08" y1="12.7" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
