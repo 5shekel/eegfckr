@@ -6,18 +6,18 @@
   http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
 */
 
-#define speaker_pin   0    // speaker_pin on GPIO #0
-#define SCALE     2.0  // You can change this to change the tone scale
+//#define speaker_pin   0    // speaker_pin on GPIO #0
+//#define SCALE     2.0  // You can change this to change the tone scale
 
 #define led1 2
-#define led2 1
-#define pot A3
+#define led2 3
+#define pot A2
 #define hightimes 10 //time to keep led on in cycle
 
 int logy = 5;
 
 void setup() {
-  pinMode(speaker_pin, OUTPUT);
+  //pinMode(speaker_pin, OUTPUT);
 
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
@@ -46,7 +46,7 @@ void loop() {
   */
 }
 
-
+/*
 // the sound producing function
 void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMilliseconds)
 { // http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
@@ -81,4 +81,4 @@ void scale (char note)
   if (note == 'H')
     beep(speaker_pin, 4186, 500); //C
 }
-
+*/
