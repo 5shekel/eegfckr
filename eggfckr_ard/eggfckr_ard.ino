@@ -1,5 +1,5 @@
 /*
- * https://github.com/5shekel/eegfckr
+   https://github.com/5shekel/eegfckr
   Note1: some code from the adafriut gemma simple thermain example.
   Note2: The Arduino tone library does not work for the ATTiny85 on the
   Trinket and Gemma.  The beep function below is similar.  The beep code
@@ -48,9 +48,9 @@ void loop() {
 }
 
 /*
-// the sound producing function
-void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMilliseconds)
-{ // http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
+  // the sound producing function
+  void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMilliseconds)
+  { // http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
   int x;
   long delayAmount = (long)(1000000 / frequencyInHertz);
   long loopTime = (long)((timeInMilliseconds * 1000) / (delayAmount * 2));
@@ -61,10 +61,10 @@ void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMillis
     digitalWrite(speaker_pinPin, LOW);
     delayMicroseconds(delayAmount);
   }
-}
+  }
 
-void scale (char note)
-{
+  void scale (char note)
+  {
   if (note == 'C')
     beep(speaker_pin, 2093, 500); //C: play the note C (C7 from the chart linked to above) for 500ms
   if (note == 'D')
@@ -81,5 +81,5 @@ void scale (char note)
     beep(speaker_pin, 3951, 500); //B
   if (note == 'H')
     beep(speaker_pin, 4186, 500); //C
-}
+  }
 */
