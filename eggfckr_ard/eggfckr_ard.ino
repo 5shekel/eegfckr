@@ -1,33 +1,41 @@
 /*
- * https://github.com/5shekel/eegfckr
-  Note1: some code from the adafriut gemma simple thermain example.
-  Note2: The Arduino tone library does not work for the ATTiny85 on the
-  Trinket and Gemma.  The beep function below is similar.  The beep code
-  is adapted from Dr. Leah Buechley at
-  http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
+   https://github.com/5shekel/eegfckr
+
+   workin progress - button instead of pot
 */
 
-//#define speaker_pin   0    // speaker_pin on GPIO #0
-//#define SCALE     2.0  // You can change this to change the tone scale
-
-#define led1 2
-#define led2 3
-#define pot A2
+#define led1 4
+#define led2 2
+#define btn 3
 #define hightimes 10 //time to keep led on in cycle
+int freqLight = [4, 10, 20, 32];
+
+int buttonState;             // the current reading from the input pin
+int lastButtonState = LOW;
+unsigned long lastDebounceTime = 0;  // the last time the output pin was toggled
+unsigned long debounceDelay = 50;    // the debounce time; increase if the output flickers
 
 int logy = 5;
 
 void setup() {
-  //pinMode(speaker_pin, OUTPUT);
 
   pinMode(led1, OUTPUT);
   pinMode(led2, OUTPUT);
-  pinMode(pot, INPUT);
+  pinMode(btn, INPUT);
 
 }
 void loop() {
 
-  int input = analogRead(pot);  //between 4-32Hz blinks, 4 is 250ms, 32 is 31ms
+  int reading = digitalRead(btn);  //between 4-32Hz blinks, 4 is 250ms, 32 is 31ms
+  if (reading != lastButtonState)
+    lastDebounceTime = millis();
+
+  if ((millis() - lastDebounceTime) > debounceDelay) {
+    if (reading != buttonState) {
+      if (buttonState == HIGH)
+        freqState = freqLight[i];
+    }
+  }
   int freqLight = map(input, 100, 1024, 31, 250);
   freqLight = constrain(freqLight, 31, 250);
 
@@ -48,9 +56,9 @@ void loop() {
 }
 
 /*
-// the sound producing function
-void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMilliseconds)
-{ // http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
+  // the sound producing function
+  void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMilliseconds)
+  { // http://web.media.mit.edu/~leah/LilyPad/07_sound_code.html
   int x;
   long delayAmount = (long)(1000000 / frequencyInHertz);
   long loopTime = (long)((timeInMilliseconds * 1000) / (delayAmount * 2));
@@ -61,10 +69,10 @@ void beep (unsigned char speaker_pinPin, int frequencyInHertz, long timeInMillis
     digitalWrite(speaker_pinPin, LOW);
     delayMicroseconds(delayAmount);
   }
-}
+  }
 
-void scale (char note)
-{
+  void scale (char note)
+  {
   if (note == 'C')
     beep(speaker_pin, 2093, 500); //C: play the note C (C7 from the chart linked to above) for 500ms
   if (note == 'D')
@@ -81,5 +89,5 @@ void scale (char note)
     beep(speaker_pin, 3951, 500); //B
   if (note == 'H')
     beep(speaker_pin, 4186, 500); //C
-}
+  }
 */
