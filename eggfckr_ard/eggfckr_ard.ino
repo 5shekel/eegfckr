@@ -31,12 +31,13 @@ void loop() {
   int freqLight = map(input, 100, 1024, 31, 250);
   freqLight = constrain(freqLight, 31, 250);
 
-  digitalWrite(led1, LOW);
-  digitalWrite(led2, LOW);
-  delay(hightimes);
-  digitalWrite(led1, HIGH);
-  digitalWrite(led2, HIGH);
-  delay(freqLight - hightimes);
+    digitalWrite(led1, HIGH);
+    digitalWrite(led2, LOW);
+    delay(hightimes);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, HIGH);
+    delay(freqLight - hightimes);
+  
 
   /*
     int freqAudio=220+(int)(input*SCALE); // change the voltage read to a frequency
