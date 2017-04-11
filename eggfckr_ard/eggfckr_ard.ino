@@ -28,15 +28,14 @@ void setup() {
 void loop() {
 
   int input = analogRead(pot);  //between 4-32Hz blinks, 4 is 250ms, 32 is 31ms
-  int freqLight = map(input, 100, 1024, 31, 250);
-  freqLight = constrain(freqLight, 31, 250);
+  int freqLight = map(input, 0, 1024, 20, 250);
 
     digitalWrite(led1, HIGH);
     digitalWrite(led2, LOW);
     delay(hightimes);
     digitalWrite(led1, LOW);
     digitalWrite(led2, HIGH);
-    delay(freqLight - hightimes);
+    delay(freqLight);
   
 
   /*
