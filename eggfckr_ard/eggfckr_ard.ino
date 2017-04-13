@@ -36,8 +36,6 @@ void loop() {
     digitalWrite(led1, LOW);
     digitalWrite(led2, HIGH);
     delay(freqLight);
-  
-
   /*
     int freqAudio=220+(int)(input*SCALE); // change the voltage read to a frequency
                              // you can change the values to scale
