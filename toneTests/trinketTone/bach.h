@@ -1,6 +1,33 @@
+
+// PlayBach:
+// Plays "Prelude in C", which is held in noteArray
+// Uses PROGMEM to store array, due to large size
+void PlayBach()
+{
+  int len = 150; // modify for speed
+  int dly = 190; // modify for articulation
+  for (int count = 0; count < NOTECOUNT; count++)
+  {
+    TrinketTone( pgm_read_word( &noteArray[count] ), len);
+    delay(dly);
+    if ((count > 512) and (count < 540)) // slow down (rit.) at end.
+    {
+      len += 3;
+      dly += 5;
+    }
+  }
+  TrinketTone(C4, 1500); // final note
+  delay(1500);
+}
+
+/*************************************************
+  Music Content is stored in the following array.
+  PROGMEM is needed because of the large data size.
+  "Prelude in C" Well-Tempered Clavier, J.S.Bach
+*************************************************/
 #define NOTECOUNT 544 // length of array
 #include <avr/pgmspace.h> // needed for PROGMEM
-const PROGMEM uint16_t noteArray[] =
+PROGMEM const uint16_t noteArray[] =
 {
   C4, E4, G4, C5, E5, G4, C5, E5, //measures 1-2, notes 1-32
   C4, E4, G4, C5, E5, G4, C5, E5,
