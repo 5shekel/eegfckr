@@ -186,8 +186,8 @@ void sine(int dail_i) {
 void loop()
 {
   int dail = analogRead(3);
-  //sine(dail);
-  TrinketTone(dail + scalar, 0); //C4 and CS4
+  sine(dail);
+  //TrinketTone(dail + scalar, 0); //C4 and CS4
 
   /*
      #define FS3 185
