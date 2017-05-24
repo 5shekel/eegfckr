@@ -174,7 +174,7 @@ float weevy;
 void setup()
 {
   pinMode(1, OUTPUT); // enable OUTPUT (PB1, #1)
-  scalar = random(0);
+  scalar = random(55);
 }
 
 void sine(int dail_i) {
@@ -186,8 +186,8 @@ void sine(int dail_i) {
 void loop()
 {
   int dail = analogRead(3);
-  //sine(dail);
-  TrinketTone(dail + scalar, 0); //C4 and CS4
+  sine(dail);
+  //TrinketTone(dail + scalar, 0); //C4 and CS4
 
   /*
      #define FS3 185
