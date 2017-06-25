@@ -1,6 +1,8 @@
 # eegfckr
-TLDR>>> brain eeg exciter, a simlpe device to output blinking LEDs in freq between 4-32Hz  
+TLDR>>> brain exciter, a  sencessor to output blinking LEDs in freq between 4-32Hz and tone in a ~30Hz phase
 
+
+[text is work in progress, not touching audio]
 After centuries of using electricity to stimulate and research the brain, optogenetics marks a phase, in which we use light to activate neurons and their pathways. To understand this transformation from electricity to light as a medium for exploring our mind, we will prototype a creative eye-ware with LEDs, which can alter EEG signals in the brain. We will solder a simple circuit that acts as a mind machine device. The final prototype will have a form of a creative eyewear or "eye-ware" mocking some recent history of Google glass mania and other futuristic attempts to hack eyeglasses.
 
 ![](http://i.imgur.com/2eitLkN.jpg)   
@@ -10,11 +12,7 @@ After centuries of using electricity to stimulate and research the brain, optoge
 where abusing attiny85 "factory calibrated" 10% error to generate [binaural beats](https://en.wikipedia.org/wiki/Binaural_beats)   
 ![](http://i.imgur.com/kYpux29.jpg)  
 
-Schema  
-![](https://i.imgur.com/GS73reS.png)
-
-Board layout (example)  
-![](http://i.imgur.com/JOm8612.png)
+![](http://i.imgur.com/oegPiL5.jpg) 
 
 Attiny85 pinout  
 ![](http://highlowtech.org/wp-content/uploads/2011/10/ATtiny45-85.png)
