@@ -6,11 +6,8 @@ After centuries of using electricity to stimulate and research the brain, optoge
 ![](http://i.imgur.com/2eitLkN.jpg)   
 [more pics at imgur](http://imgur.com/a/cNCWE)
 
-#board Layout
-
-where abusing attiny85 "factory calibrated" 10% error to generate [binaural beats](https://en.wikipedia.org/wiki/Binaural_beats)
-
-previous version  
+# board Layout  
+where abusing attiny85 "factory calibrated" 10% error to generate [binaural beats](https://en.wikipedia.org/wiki/Binaural_beats)   
 ![](http://i.imgur.com/kYpux29.jpg)  
 
 Schema  
@@ -23,7 +20,7 @@ Attiny85 pinout
 ![](http://highlowtech.org/wp-content/uploads/2011/10/ATtiny45-85.png)
 
 
-##software
+## software
 in process.   
 also see [low.li blog post](http://low.li/story/2011/01/arduino-brain-machine) > [github](https://github.com/LaughterOnWater/Arduino-Brain-Machine)
 
