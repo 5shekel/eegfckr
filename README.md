@@ -7,7 +7,13 @@ After centuries of using electricity to stimulate and research the brain, optoge
 [more pics at imgur](http://imgur.com/a/cNCWE)
 
 #board Layout
-Schema  
+
+where abusing attiny85 "factory calibrated" 10% error to generate [binaural beats](https://en.wikipedia.org/wiki/Binaural_beats)
+
+previous version  
+![](http://i.imgur.com/kYpux29.jpg)  
+
+Schema  
 ![](https://i.imgur.com/GS73reS.png)
 
 Board layout (example)  
