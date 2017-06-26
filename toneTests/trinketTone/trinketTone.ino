@@ -171,23 +171,44 @@ int scalar = 99;
 float speed = 6.5;
 float weevy;
 
+unsigned long previousMillis = 0;        // will store last time LED was updated
+int interval = 33;
+int ledPin = 4;
+bool ledState=0;
+
 void setup()
 {
   pinMode(1, OUTPUT); // enable OUTPUT (PB1, #1)
-  scalar = random(55);
+  pinMode(ledPin, OUTPUT); //
 }
 
 void sine(int dail_i) {
   weevy = sin(angle) * scalar;
   TrinketTone(dail_i + weevy, 0); //C4 and CS4
-  angle = angle + speed;
+  //angle = angle + speed;
 }
 
 void loop()
 {
   int dail = analogRead(3);
-  sine(dail);
-  //TrinketTone(dail + scalar, 0); //C4 and CS4
+  //scalar = random(3);
+  unsigned long currentMillis = millis();
+
+  TrinketTone(dail, 0); //C4 and CS4
+  if (currentMillis - previousMillis >= interval) {
+    // save the last time you blinked the LED
+    previousMillis = currentMillis;
+
+    // if the LED is off turn it on and vice-versa:
+    if (ledState == LOW) {
+      ledState = HIGH;
+    } else {
+      ledState = LOW;
+    }
+
+    // set the LED with the ledState of the variable:
+    digitalWrite(ledPin, ledState);
+  }
 
   /*
      #define FS3 185
